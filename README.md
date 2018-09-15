@@ -1,6 +1,6 @@
-# Javascript TDD - Battleship Engine
+# Javascript Testing - Battleship Engine
 
-JAVASCRIPT, TDD with MOCH, CHAI to create a game engine (no GUI) to play the classic game, Battleship.
+JAVASCRIPT, BDD with MOCH, CHAI to create a game engine (no GUI) to play the classic game, Battleship.
 
 
 -----------------------------------------------
