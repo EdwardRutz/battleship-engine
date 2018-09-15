@@ -2,10 +2,7 @@
 
 JAVASCRIPT, BDD with MOCH, CHAI to create a game engine (no GUI) to play the classic game, Battleship.
 
-
------------------------------------------------
-## WIP Status
-- Sprint 1
+- [ ] Work in Progress
 
 -----------------------------------------------
 
