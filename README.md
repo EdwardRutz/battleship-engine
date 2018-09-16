@@ -11,8 +11,38 @@ JAVASCRIPT, BDD with MOCH, CHAI to create a game engine (no GUI) to play the cla
 - Mocha
 - Chia
 
+## Install Project
+
+- Download from git
+- Install dependencies `npm install`
+
+## Run Tests
+
+- `npm test`
 
 
+## Notes
+
+- Install Mocha and Chai into a project: `npm install --save-dev mocha chai`
+- To create a basic package.json file in project and select dependencies, use: `npm init`
+- Mocha will test all files in the "test" folder.
+- The test folder must be named "test" and be located in the same directory as package.json
+- Create a test suit using the describe function.`describe('...', function(){...});
+- `describe()` takes two arguments: 
+    1. a string describing what test will cover, 
+    2. an anonymous function which serves as a "wrapper" for all the unit tests in the test suite
+- A unit test are also called "spec"
+- Specs/unit tests are created by, `it('...', function(){...});` function.
+- `it()` has two arguments: 
+    1. a string stating what the function will test,
+    2. a function with the expectations or state for the test to meet and pass
+
+
+
+```
+describe(' ', function(){
+});
+``` 
 
 
 ## References
