@@ -1,7 +1,7 @@
 {
   "name": "battleship-engine",
   "version": "1.0.0",
-  "description": "JAVASCRIPT, TDD with MOCH, CHAI to create a game engine (no GUI) to play the classic game, Battleship.",
+  "description": "JAVASCRIPT: Using TDD with MOCH, CHAI to create a game engine (no GUI) to play the classic game, Battleship.",
   "author": "Edward Rutz",
   "main": "index.js",
   "scripts": {

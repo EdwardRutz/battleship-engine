@@ -4,7 +4,7 @@ JAVASCRIPT, BDD with MOCH, CHAI to create a game engine (no GUI) to play the cla
 
 - [ ] Work in Progress
 
------------------------------------------------
+
 
 ## Dependencies
 - Node.js
@@ -37,18 +37,18 @@ JAVASCRIPT, BDD with MOCH, CHAI to create a game engine (no GUI) to play the cla
     1. a string stating what the function will test,
     2. a function with the expectations or state for the test to meet and pass
 
-
-
 ```
-describe(' ', function(){
-});
+    describe(' ', function(){
+    });
 ``` 
 
 
-## References
+## Sources
+
 - [TeamTreehouse: Getting Started with Mocha and Chai](https://teamtreehouse.com/library/javascript-unit-testing/behavior-driven-development-with-mocha-chai/getting-started-with-mocha-and-chai)
 - [ER Github: battleship-engine](https://github.com/EdwardRutz/battleship-engine)
 - [Original Battleship Game](https://www.hasbro.com/en-us/product/battleship-game-retro-series-1967-edition:F9D20F7E-2C1D-4261-BB10-FF8B648AA5C8)
 - [NPM: Create Package.json](https://docs.npmjs.com/cli/init)
 - [mochajs.org](https://mochajs.org/)
 - [chaijs.org](http://chaijs.com/api/bdd/)
+- [Webstorm Running Unit Tests on Mocha](https://www.jetbrains.com/help/webstorm/2018.1/running-unit-tests-on-mocha.html)
