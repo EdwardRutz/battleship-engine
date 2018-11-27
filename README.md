@@ -1,15 +1,17 @@
 # Javascript Testing - Battleship Engine
 
-JAVASCRIPT, BDD with MOCH, CHAI to create a game engine (no GUI) to play the classic game, Battleship.
+Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play the classic game, Battleship.
 
 - [ ] Work in Progress
 
 
 
-## Dependencies
+## Tech & Dependencies
+
+- Javascript
 - Node.js
 - Mocha
-- Chia
+- Chai
 
 ## Install Project
 
