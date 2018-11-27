@@ -30,9 +30,6 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - Mocha will test all files in the "test" folder.
 - The test folder must be named "test" and be located in the same directory as package.json
 - Create a test suit using the describe function.`describe('...', function(){...});
-- `describe()` takes two arguments: 
-    1. a string describing what test will cover, 
-    2. an anonymous function which serves as a "wrapper" for all the unit tests in the test suite
 - A unit test are also called "spec"
 - Specs/unit tests are created by, `it('...', function(){...});` function.
 - `it()` has two arguments: 
