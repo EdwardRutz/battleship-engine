@@ -6,9 +6,12 @@ describe('check for ship', function() {
   it('should correctly report no ship at a given players coordinates', function() {
     player = {
       ships: [
-
+        {
+          Locations: [[0,0]]
+        }
       ]
-    }
+    };
+    expect(checkForShip(player, [9,9])).to.be.false;
   });
 
 });
