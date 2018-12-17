@@ -40,8 +40,15 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
     describe(' ', function(){
     });
 ``` 
+### More BDD Assertions
 
-
+- `.not`
+- `.empty`, checks for empty objects, arrays, or strings.
+- `.deep`, make deep equality comparisons. Similiar looking arrays are "deeply equal" because the deep internal value are equal.
+- `.include`
+- `.equal`
+- `not.equal`
+- `deep.equal`
 ## Sources
 
 - [TeamTreehouse: Getting Started with Mocha and Chai](https://teamtreehouse.com/library/javascript-unit-testing/behavior-driven-development-with-mocha-chai/getting-started-with-mocha-and-chai)
@@ -51,3 +58,4 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - [mochajs.org](https://mochajs.org/)
 - [chaijs.org](http://chaijs.com/api/bdd/)
 - [Webstorm Running Unit Tests on Mocha](https://www.jetbrains.com/help/webstorm/2018.1/running-unit-tests-on-mocha.html)
+- [Chai Docs: BDD](https://www.chaijs.com/api/bdd/)
