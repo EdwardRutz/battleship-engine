@@ -9,7 +9,7 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 ## Tech & Dependencies
 
 - Javascript
-- Node.js
+- NPM
 - Mocha
 - Chai
 
@@ -17,22 +17,20 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 
 - Download from git
 - Install dependencies `npm install`
-
-## Run Tests
-
-- `npm test`
+- Run Tests, `npm test`
 
 
 ## Notes
 
+- A unit test are also called "spec"
 - Install Mocha and Chai into a project: `npm install --save-dev mocha chai`
 - To create a basic package.json file in project and select dependencies, use: `npm init`
-- Mocha will test all files in the "test" folder.
+- Mocha will test all files in the "test" folder. Naming the folder "Test", "tests", "Tests", etc. is invalid.
 - The test folder must be named "test" and be located in the same directory as package.json
-- Create a test suit using the describe function.`describe('...', function(){...});
-- A unit test are also called "spec"
-- Specs/unit tests are created by, `it('...', function(){...});` function.
-- `it()` has two arguments: 
+- Create a test suit containing unit tests using the describe function.
+    ` describe('...', function(){...}); `
+- Specs/unit tests are created by, ` it('...', function(){...}); ` function.
+- The `it()` unit test has two arguments: 
     1. a string stating what the function will test,
     2. a function with the expectations or state for the test to meet and pass
 
@@ -40,6 +38,7 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
     describe(' ', function(){
     });
 ``` 
+
 ### More BDD Assertions
 
 - `.not`
@@ -49,9 +48,11 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - `.equal`
 - `not.equal`
 - `deep.equal`
+
+
 ## Sources
 
-- [TeamTreehouse: Getting Started with Mocha and Chai](https://teamtreehouse.com/library/javascript-unit-testing/behavior-driven-development-with-mocha-chai/getting-started-with-mocha-and-chai)
+- [TeamTreehouse Tutorial: Getting Started with Mocha and Chai](https://teamtreehouse.com/library/javascript-unit-testing/behavior-driven-development-with-mocha-chai/getting-started-with-mocha-and-chai)
 - [ER Github: battleship-engine](https://github.com/EdwardRutz/battleship-engine)
 - [Original Battleship Game](https://www.hasbro.com/en-us/product/battleship-game-retro-series-1967-edition:F9D20F7E-2C1D-4261-BB10-FF8B648AA5C8)
 - [NPM: Create Package.json](https://docs.npmjs.com/cli/init)
