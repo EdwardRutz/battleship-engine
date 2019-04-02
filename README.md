@@ -2,7 +2,7 @@
 
 Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play the classic game, Battleship.
 
-- [ ] Work in Progress
+- WIP
 
 
 

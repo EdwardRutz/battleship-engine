@@ -20,6 +20,15 @@ describe('checkForShip', function () {
     };
   });
 
+  after(function () {
+    console.log(' Teardown, after: Entire test suite completed');
+  });
+
+  afterEach(function () {
+    console.log('Teardown, afterEach: One unit test completed')
+  });
+
+
   it('should correctly report no ship at a given players coordinate', function () {
     expect(checkForShip(player, [9, 9])).to.be.false;
   });
