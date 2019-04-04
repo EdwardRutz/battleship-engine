@@ -1,6 +1,6 @@
 var checkForShip = require('./ship_methods.js').checkForShip;
 
-function validateLocation (player, coordinates) {
+function validateLocation(player, coordinates) {
   var x = coordinates[0];
   var y = coordinates[1];
 
@@ -13,14 +13,14 @@ function validateLocation (player, coordinates) {
   }
 }
 
-function validateLocations (player, locations) {
-  var validated = locations.map(function (location) {
+function validateLocations(player, locations) {
+  var validated = locations.map(function(location) {
     return validateLocation(player, location);
   });
   return validated.indexOf(false) === -1;
 }
 
-function placeShip (player, ship, startingCoordinates, direction) {
+function placeShip(player, ship, startingCoordinates, direction) {
   if (!direction) throw Error('You left out the direction! I need that for math!');
   var proposedLocations = [];
   var previousLocation,
@@ -31,14 +31,12 @@ function placeShip (player, ship, startingCoordinates, direction) {
     previousLocation = proposedLocations[i - 1] || [];
     rowNumber = previousLocation[0];
     columnNumber = previousLocation[1];
-    
-    proposedLocations[i] = (i === 0)
-      ? startingCoordinates
-      : (direction === 'horizontal')
-        ? [rowNumber, ++columnNumber]
-        : [++rowNumber, columnNumber];
+
+    proposedLocations[i] = (i === 0) ? startingCoordinates :
+      (direction === 'horizontal') ? [rowNumber, ++columnNumber] :
+      [++rowNumber, columnNumber];
   }
-  
+
   if (validateLocations(player, proposedLocations)) {
     ship.locations = proposedLocations;
   } else {
@@ -46,28 +44,20 @@ function placeShip (player, ship, startingCoordinates, direction) {
   }
 }
 
-function computerFire (player) {
+
+function getRandomCoordinates() {
   var x = Math.floor(Math.random() * 9);
   var y = Math.floor(Math.random() * 9);
-  var coordinates = [x, y];
-
-  fire(player, coordinates);
+  return [x, y];
 }
 
-function computerPlaceShip (player, ship) {
-  var direction = Math.random() > 0.5
-    ? 'horizontal'
-    : 'vertical';
-  var x = Math.floor(Math.random() * 9);
-  var y = Math.floor(Math.random() * 9);
-  var coordinates = [x, y];
-  placeShip(player, ship, coordinates, direction);
+function getRandomDirection() {
+  return Math.random() > 0.5 ? 'horizontal' : 'vertical';
 }
+
 
 module.exports = {
   placeShip: placeShip,
   validateLocations: validateLocations,
   validateLocation: validateLocation,
-  computerPlaceShip: computerPlaceShip,
-  computerFire: computerFire
 };

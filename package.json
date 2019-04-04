@@ -5,7 +5,7 @@
   "author": "Edward Rutz",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter markdown"
+    "test": "mocha --reporter min"
   },
   "keywords": [],
   "license": "ISC",

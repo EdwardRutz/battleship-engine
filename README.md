@@ -41,6 +41,11 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
     describe(' ', function(){
     });
 ``` 
+
+- If writing test for a function is difficult, maybe the code is not needed?
+- Good unit tests improve code.Good
+
+
 ### Mocha Reporters to Format Test Output
 
 ```
@@ -60,6 +65,27 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - `.equal`
 - `not.equal`
 - `deep.equal`
+
+## Git Notes
+
+- Sometimes git updates in CodeAnywhere may not work completely. A commit is registered on Github but changes are not added.
+- This git protocol works with Code Anywhere. 
+```
+git add -A // To track all files
+git commit -am "message" // To commit changes
+git push origin master // Push your local changes to github
+```
+- `git add . ` will add all files, tracked and untracked.
+- `git remote -v` shows location/repo being pushed to
+-A, --all, --no-ignore-removal
+  - Adds changes to all tracked files.  
+  - "Update the index not only where the working tree has a file matching <pathspec> but also where the index already has an entry. This adds, modifies, and removes index entries to match the working tree."
+  - "If no <pathspec> is given when -A option is used, all files in the entire working tree are updated (old versions of Git used to limit the update to the current directory and its subdirectories)."
+
+-a, --all, 
+  - "Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected."
+
+- [Git Docs](https://git-scm.com/docs)
 
 
 ## Sources
