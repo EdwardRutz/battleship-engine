@@ -19,6 +19,9 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - Install dependencies `npm install`
 - Run Tests, `npm test`
 
+- Install Mocha globally, ` npm install --global mocha `
+- Install Mocha as a development dependency, ` npm install --save-dev mocha `
+- test
 
 ## Notes
 
@@ -38,11 +41,15 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
     describe(' ', function(){
     });
 ``` 
-- Mocha test formats
+### Mocha Reporters to Format Test Output
+
 ```
   mocha --reporter min
   mocha --reporter markdown
+  mocha --reporter landing
+  mocha --reporter nyan
 ```
+- [Docs: Mocha Reporters](https://mochajs.org/#reporters)
 
 ### More BDD Assertions
 
