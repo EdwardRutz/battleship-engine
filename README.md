@@ -23,6 +23,13 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - Install Mocha as a development dependency, ` npm install --save-dev mocha `
 - test
 
+## Issues and Fixes
+
+- Keep in mind, git commits from CodeAnywhere will not show up in contribution activity unless you add your CodeAnywhere email address to Github.Keep
+- https://help.github.com/en/articles/why-are-my-contributions-not-showing-up-on-my-profile
+
+
+
 ## Notes
 
 - A unit test are also called "spec"
