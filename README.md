@@ -38,6 +38,11 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
     describe(' ', function(){
     });
 ``` 
+- Mocha test formats
+```
+  mocha --reporter min
+  mocha --reporter markdown
+```
 
 ### More BDD Assertions
 
