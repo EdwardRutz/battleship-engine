@@ -5,7 +5,9 @@
   "author": "Edward Rutz",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter min"
+    "test": "mocha --reporter min",
+    "test:watch" : "mocha --watch  ./test ./ --reporter min",
+    "test:watch:playerMethods" : "mocha --watch ./test/player_test.js ./game_logic/player_methods.js"
   },
   "keywords": [],
   "license": "ISC",
