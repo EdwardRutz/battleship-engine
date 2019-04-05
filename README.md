@@ -26,8 +26,8 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 - https://help.github.com/en/articles/why-are-my-contributions-not-showing-up-on-my-profile
 
 
-==============================================================
-------------------------------------------------------------
+
+--------------------------------------------------------------
 # Notes
 --------------------------------------------------------------
 
@@ -120,7 +120,7 @@ Test Driven Design with MOCHA and CHAI to create a game engine (no GUI) to play 
 
 
 
-==============================================================
+
 --------------------------------------------------------------
 # Reference
 --------------------------------------------------------------
@@ -160,7 +160,7 @@ git push origin master // Push your local changes to github
 - [Wikipedia: Battleship](https://en.wikipedia.org/wiki/Battleship)
 - https://sinonjs.org/https
 
-==============================================================
+
 --------------------------------------------------------------
 # Unit Tests
 --------------------------------------------------------------
